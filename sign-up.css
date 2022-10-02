@@ -30,7 +30,7 @@
         overflow: hidden;
         position: relative;
         width: 900px;
-        height: 550px;
+        height: 600px;
         background: #fff;
         box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30);
         padding-right: 200px;
@@ -134,5 +134,8 @@
         text-align: center;
         color: #fff;
         transition: -webkit-transform 1.2s ease-in-out;
+      }
+      .already{
+        margin-left: 250px;
       }
      /*sign up page ends here */
