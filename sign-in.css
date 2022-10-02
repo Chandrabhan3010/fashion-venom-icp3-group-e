@@ -186,78 +186,18 @@
     line-height: 1.5;
   }
   
-  .cont.s-signup .img-text.m-up{
-    -webkit-transform:translateX(520px);
-            transform:translateX(520px);
-  }
-  
-  .img-text.m-in{
-    -webkit-transform:translateX(-520px);
-            transform:translateX(-520px);
-  }
-  
-  .cont.s-signup .img-text.m-in{
-    -webkit-transform:translateX(0);
-            transform:translateX(0);
-  }
   
   
-  .sign-in{
-    padding-top: 65px;
-    -webkit-transition-timing-function:ease-out;
-            transition-timing-function:ease-out;
-  }
   
-  .cont.s-signup .sign-in{
-    -webkit-transition-timing-function:ease-in-out;
-            transition-timing-function:ease-in-out;
-    -webkit-transition-duration:1.2s;
-            transition-duration:1.2s; 
-    -webkit-transform:translate3d(640px, 0, 0);
-            transform:translate3d(640px, 0, 0);
-  }
   
-  .img-btn{
-    overflow: hidden;
-    z-index: 2;
-    position: relative;
-    width: 100px;
-    height: 36px;
-    margin: 0 auto;
-    background: transparent;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 15px;
-    cursor: pointer;
-  }
   
-  .img-btn:after{
-    content: '';
-    z-index: 2;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid #fff;
-    border-radius: 30px;
-  }
+ 
   
-  .img-btn span{
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack:center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    transition: -webkit-transform 1.2s;
-    transition: transform 1.2s;
-    transition: transform 1.2s, -webkit-transform 1.2s;;
-  }
+ 
+  
+ 
+  
+  
   
   .img-btn span.m-in{
     -webkit-transform:translateY(-72px);
@@ -283,3 +223,11 @@
     -webkit-transform:translate3d(0, 0, 0);
             transform:translate3d(0, 0, 0);
   }
+
+  .new{
+    background-color: #0c0101;
+    border: red 2px solid;
+    border-radius: 10px ;
+    width: 65px;
+
+}
