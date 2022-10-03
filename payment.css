@@ -12,9 +12,15 @@ body{
     justify-content: center;
     align-items: center;
     background-color: azure;
+<<<<<<< HEAD
     background-image: url(./img/payment/bluebg.jpeg);
     background-size: cover;
    
+=======
+    background-image: url(./images/payment/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic.jpg);
+    background-size: contain;
+
+>>>>>>> f1fa72095cd794b64fd2252ad7324da40762d7ee
 }
 
 .container{
